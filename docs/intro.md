@@ -2,46 +2,110 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to Arenas
 
-Let's discover **Docusaurus in less than 5 minutes**.
+<div className="hero hero--primary">
+  <div className="container">
+    <h1 className="hero__title">AI-Powered Data Science Platform</h1>
+    <p className="hero__subtitle">
+      Transform your business with intelligent data analysis and automation
+    </p>
+    <div className="hero__buttons">
+      <a className="button button--secondary button--lg" href="/installation">
+        Get Started →
+      </a>
+      <a className="button button--outline button--lg" href="/features/ai-analysis">
+        Learn More
+      </a>
+    </div>
+  </div>
+</div>
+
+## Why Arenas?
+
+Arenas revolutionizes how businesses handle complex data operations in finance, marketing, and beyond. Our platform combines cutting-edge artificial intelligence with powerful data science capabilities to deliver actionable insights and automate complex analytical tasks.
+
+<div className="row">
+  <div className="col col--4">
+    <div className="card">
+      <div className="card__header">
+        <h3>🤖 AI-Powered Analysis</h3>
+      </div>
+      <div className="card__body">
+        <p>Advanced machine learning models and natural language processing capabilities for intelligent data analysis.</p>
+      </div>
+    </div>
+  </div>
+  <div className="col col--4">
+    <div className="card">
+      <div className="card__header">
+        <h3>📊 Data Visualization</h3>
+      </div>
+      <div className="card__body">
+        <p>Interactive dashboards and beautiful visualizations to make your data come alive.</p>
+      </div>
+    </div>
+  </div>
+  <div className="col col--4">
+    <div className="card">
+      <div className="card__header">
+        <h3>🔒 Enterprise Security</h3>
+      </div>
+      <div className="card__body">
+        <p>End-to-end encryption and role-based access control for your sensitive data.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## Getting Started
 
-Get started by **creating a new site**.
+To begin using Arenas, you'll need to:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+1. Create an account at [arenas.ai](https://arenas.ai)
+2. Set up your workspace
+3. Connect your data sources
+4. Start building your first analysis
 
-### What you'll need
+## Popular Use Cases
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Finance
+- Risk assessment
+- Portfolio optimization
+- Market trend analysis
+- Fraud detection
+- Predictive modeling
 
-## Generate a new site
+### Marketing
+- Customer segmentation
+- Campaign optimization
+- ROI analysis
+- Market basket analysis
+- Sentiment analysis
 
-Generate a new Docusaurus site using the **classic template**.
+## Ready to Get Started?
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+<div className="row">
+  <div className="col col--6">
+    <div className="card">
+      <div className="card__header">
+        <h3>Quick Start Guide</h3>
+      </div>
+      <div className="card__body">
+        <p>Get up and running with Arenas in minutes.</p>
+        <a href="/quickstart" className="button button--primary">Start Here</a>
+      </div>
+    </div>
+  </div>
+  <div className="col col--6">
+    <div className="card">
+      <div className="card__header">
+        <h3>API Documentation</h3>
+      </div>
+      <div className="card__body">
+        <p>Integrate Arenas with your existing systems.</p>
+        <a href="/api/overview" className="button button--primary">View API Docs</a>
+      </div>
+    </div>
+  </div>
+</div>
